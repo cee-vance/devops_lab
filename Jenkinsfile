@@ -8,13 +8,13 @@ pipeline{
 	stages{
 	stage('Build') {
 		steps{
-			bat 'scripts/build.sh' // run the build.sh asset
+			bat 'scripts\build.sh' // run the build.sh asset
 		}
 	
 	}
 	stage('Test'){
 		steps{
-			bat 'scripts/test.sh' // run test.sh asset
+			bat 'scripts\test.sh' // run test.sh asset
 		}
 	}
 	}
