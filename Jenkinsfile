@@ -1,5 +1,5 @@
 pipeline{
-	agent { docker { image 'golang:1.21.5-alpine3.19' }}
+	agent { any { image 'golang:1.21.5-alpine3.19' }}
 	// tools { go 'go 1.19' }
 
 	environment {
